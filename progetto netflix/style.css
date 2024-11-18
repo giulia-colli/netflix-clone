@@ -1,0 +1,145 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans', sans-serif;
+    background-color: #141414;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -15px;
+    margin-left: 25px;
+    background-color: #141414;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar-toggler{
+    border: 1px solid gray;
+    background-color: #333;
+    color: white;
+}
+
+
+
+.logo {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.navbar-links a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+    color: #e50914;
+}
+.users{
+    width: 25px;
+    
+}
+.icon{
+    margin-left: 280px;
+    
+}
+
+
+h1{
+    text-align: left;
+    color: white;
+    padding-right: 10px;
+}
+
+
+main{
+    padding-top: 120px;
+    margin-left: 60px;
+    overflow-x: hidden;
+}
+
+h4{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.cardNetflix{
+   
+    padding: 5px;
+   
+
+}
+.cardNetflix img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px gray;
+}
+.card{
+    border-radius: 10px;
+    border: none
+}
+h5{
+    font-size: 10px;
+    margin-right: 10px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown button{
+    background-color:black ;
+    color:white ;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: gray;
+    border-radius: 5px;
+    z-index: 1000;
+    min-width: 100px;
+}
+ .dropdown-menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+ }
+ .dropdown-menu a:hover{
+    background-color:black ;
+ }
+ .dropdown-menu a:last-child{
+    border-bottom: none;
+ }
+ .dropdown:hover .dropdown-menu {
+    display: block;
+ }
+ 
+
+  
+ 
+
+ 
+  
+
+  
+  
+
+  
+  
+  
