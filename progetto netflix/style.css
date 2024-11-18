@@ -80,11 +80,12 @@ h4{
 }
 .cardNetflix img:hover{
     transform: scale(1.1);
-    box-shadow: 0 4px 8px gray;
+    box-shadow: 0 4px 8px #80808057;
 }
 .card{
     border-radius: 10px;
-    border: none
+    border: none;
+    transition: all .2s linear;
 }
 h5{
     font-size: 10px;
@@ -129,8 +130,50 @@ h5{
  .dropdown:hover .dropdown-menu {
     display: block;
  }
- 
-
+ @media(max-width:991px){
+    main{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .navbar{
+        margin-left: 5px;
+        margin-right: 5px;
+        width: auto;
+    }
+    *{
+        margin: unset;
+    }
+    header.navbar {
+        width: 100%;
+        display: block;
+        margin: 0;
+        padding: 15px;
+    }
+    
+    nav.navbar-links .navbar-link {
+        width: 100%;
+        display: block;
+    }
+    
+    nav.navbar-links {
+        width: 100%;
+    }
+    
+    .icon {
+        margin-left: auto;
+        margin-top: 15px;
+    }
+    nav.navbar-links>.container-fluid {
+        padding: 0;
+    }
+    footer i{
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+ }
+ span.navbar-toggler-icon > i {
+    font-size: 28px;
+}
   
  
 
